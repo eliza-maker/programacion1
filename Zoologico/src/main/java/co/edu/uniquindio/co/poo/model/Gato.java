@@ -11,7 +11,7 @@ public class Gato extends Animal{
 
     @Override
     public void hacerSonido() {
-        System.out.print("El gato "+getNombre()+" hace miau");
+        System.out.println("El gato "+getNombre()+" hace miau");
     }
 
     public void numBigotes(){
