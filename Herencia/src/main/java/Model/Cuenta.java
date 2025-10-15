@@ -11,8 +11,8 @@ public abstract class Cuenta {
         this.saldo = saldo;
         this.numConsignaciones = numConsignaciones;
         this.numRetiros = numRetiros;
-        this.tasaAnual = tasaAnual;
-        this.comisionMensual = comisionMensual;
+        this.tasaAnual = tasaAnual;        this.comisionMensual= comisionMensual;
+
     }
 
     public float getSaldo() {
